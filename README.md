@@ -1,4 +1,4 @@
-##### Create a new Conda environment using the requirements.text or using the Docker machine set up in this repository.
+### Create a new Conda environment using the requirements.text or using the Docker machine set up in this repository.
 
 docker build . -t watershed
 
