@@ -151,7 +151,6 @@ dependencies:
   - traittypes=0.2.1=pyh9f0ad1d_2
   - typing_extensions=3.7.4.3=py_0
   - tzdata=2021a=he74cb21_0
-  - urllib3=1.26.4=pyhd8ed1ab_0
   - vc=14.2=hb210afc_4
   - vs2015_runtime=14.28.29325=h5e1d092_4
   - wcwidth=0.2.5=pyh9f0ad1d_2
@@ -178,5 +177,6 @@ dependencies:
     - pyqtwebengine==5.12.1
     - toolz==0.11.1
     - traitlets==4.3.3
+    - urllib3==1.26.6
     - xmltodict==0.12.0
 prefix: C:\Users\mcamp\Anaconda3\envs\ScratchPoly
