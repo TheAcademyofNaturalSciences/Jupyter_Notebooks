@@ -1,5 +1,14 @@
+## LOCAL
+### Create a new Conda environment using the local/demo_pyenv.yml in this repository.
+
+```
+conda env create --name ScratchPoly --file=demo_pyenv.yml
+```
+
+## DOCKER
 ### Create a new Conda environment using the requirements.text or using the Docker machine set up in this repository.
 
+```
 docker build . -t watershed
 
 docker run  -p 8888:8888 -v /Users/haags/Desktop/repos/repos_outside/Watersheds/scratch_poly/notebooks/.:/home/jovyan/work jupyter_scit583
@@ -7,3 +16,4 @@ docker run  -p 8888:8888 -v /GitHub/Watersheds/scratch_poly/notebooks/.:/home/jo
 
 or run as root
  docker run  --user root  -p 8888:8888 -v /Users/haags/Desktop/repos/repos_outside/Watersheds/scratch_poly/notebooks/.:/home/jovyan/work watershed
+```
